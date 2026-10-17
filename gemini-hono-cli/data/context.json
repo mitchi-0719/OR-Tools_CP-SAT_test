@@ -1,0 +1,802 @@
+{
+  "event": {
+    "title": "秋ライブ"
+  },
+  "parts": [
+    {
+      "partId": "part-1",
+      "sortOrder": 0,
+      "partName": "第1部"
+    },
+    {
+      "partId": "part-2",
+      "sortOrder": 1,
+      "partName": "第2部"
+    },
+    {
+      "partId": "part-3",
+      "sortOrder": 2,
+      "partName": "第3部"
+    }
+  ],
+  "bands": [
+    {
+      "bandId": "band-001",
+      "bandName": "時の歌/手嶌葵"
+    },
+    {
+      "bandId": "band-002",
+      "bandName": "ラブソングに襲われる/＝LOVE"
+    },
+    {
+      "bandId": "band-003",
+      "bandName": "Everything"
+    },
+    {
+      "bandId": "band-004",
+      "bandName": "VPS/木村・奥津・山内"
+    },
+    {
+      "bandId": "band-005",
+      "bandName": "気分上々↑↑/Mihimaru GT"
+    },
+    {
+      "bandId": "band-006",
+      "bandName": "打上花火/DAOKO×米津玄師"
+    },
+    {
+      "bandId": "band-007",
+      "bandName": "源泉掛け流し/てつろう"
+    },
+    {
+      "bandId": "band-008",
+      "bandName": "最後の恋煩い/Official髭男dism"
+    },
+    {
+      "bandId": "band-009",
+      "bandName": "女の子は泣かない / 片平里菜"
+    },
+    {
+      "bandId": "band-010",
+      "bandName": "ほぼ水の泡/椎名林檎ともも"
+    },
+    {
+      "bandId": "band-011",
+      "bandName": "大正浪漫/YOASOBI"
+    },
+    {
+      "bandId": "band-012",
+      "bandName": "セブンティーン/YOASOBI"
+    },
+    {
+      "bandId": "band-013",
+      "bandName": "HOT LIMIT/T.M.Revolution"
+    },
+    {
+      "bandId": "band-014",
+      "bandName": "ノーダウト/TTTT"
+    },
+    {
+      "bandId": "band-015",
+      "bandName": "ATTENTION/ペンタトニックス"
+    },
+    {
+      "bandId": "band-016",
+      "bandName": "光について/GRAPEVINE"
+    },
+    {
+      "bandId": "band-017",
+      "bandName": "盛れ！ミ・アモーレ/Juice=Juice"
+    },
+    {
+      "bandId": "band-018",
+      "bandName": "Grapefruit Moon/TOMOO"
+    },
+    {
+      "bandId": "band-019",
+      "bandName": "Talkin' Loud/Incognito   (雲九cover ver.)"
+    },
+    {
+      "bandId": "band-020",
+      "bandName": "ハレンチ/ちゃんみな"
+    }
+  ],
+  "members": [
+    {
+      "memberId": "member-001",
+      "memberName": "ダミー001"
+    },
+    {
+      "memberId": "member-002",
+      "memberName": "ダミー002"
+    },
+    {
+      "memberId": "member-003",
+      "memberName": "ダミー003"
+    },
+    {
+      "memberId": "member-004",
+      "memberName": "ダミー004"
+    },
+    {
+      "memberId": "member-005",
+      "memberName": "ダミー005"
+    },
+    {
+      "memberId": "member-006",
+      "memberName": "ダミー006"
+    },
+    {
+      "memberId": "member-007",
+      "memberName": "ダミー007"
+    },
+    {
+      "memberId": "member-008",
+      "memberName": "ダミー008"
+    },
+    {
+      "memberId": "member-009",
+      "memberName": "ダミー009"
+    },
+    {
+      "memberId": "member-010",
+      "memberName": "ダミー010"
+    },
+    {
+      "memberId": "member-011",
+      "memberName": "ダミー011"
+    },
+    {
+      "memberId": "member-012",
+      "memberName": "ダミー012"
+    },
+    {
+      "memberId": "member-013",
+      "memberName": "ダミー013"
+    },
+    {
+      "memberId": "member-014",
+      "memberName": "ダミー014"
+    },
+    {
+      "memberId": "member-015",
+      "memberName": "ダミー015"
+    },
+    {
+      "memberId": "member-016",
+      "memberName": "ダミー016"
+    },
+    {
+      "memberId": "member-017",
+      "memberName": "ダミー017"
+    },
+    {
+      "memberId": "member-018",
+      "memberName": "ダミー018"
+    },
+    {
+      "memberId": "member-019",
+      "memberName": "ダミー019"
+    },
+    {
+      "memberId": "member-020",
+      "memberName": "ダミー020"
+    },
+    {
+      "memberId": "member-021",
+      "memberName": "ダミー021"
+    },
+    {
+      "memberId": "member-022",
+      "memberName": "ダミー022"
+    },
+    {
+      "memberId": "member-023",
+      "memberName": "ダミー023"
+    },
+    {
+      "memberId": "member-024",
+      "memberName": "ダミー024"
+    },
+    {
+      "memberId": "member-025",
+      "memberName": "ダミー025"
+    },
+    {
+      "memberId": "member-026",
+      "memberName": "ダミー026"
+    },
+    {
+      "memberId": "member-027",
+      "memberName": "ダミー027"
+    },
+    {
+      "memberId": "member-028",
+      "memberName": "ダミー028"
+    },
+    {
+      "memberId": "member-029",
+      "memberName": "ダミー029"
+    },
+    {
+      "memberId": "member-030",
+      "memberName": "ダミー030"
+    },
+    {
+      "memberId": "member-031",
+      "memberName": "ダミー031"
+    },
+    {
+      "memberId": "member-032",
+      "memberName": "ダミー032"
+    },
+    {
+      "memberId": "member-033",
+      "memberName": "ダミー033"
+    },
+    {
+      "memberId": "member-034",
+      "memberName": "ダミー034"
+    },
+    {
+      "memberId": "member-035",
+      "memberName": "ダミー035"
+    },
+    {
+      "memberId": "member-036",
+      "memberName": "ダミー036"
+    },
+    {
+      "memberId": "member-037",
+      "memberName": "ダミー037"
+    },
+    {
+      "memberId": "member-038",
+      "memberName": "ダミー038"
+    },
+    {
+      "memberId": "member-039",
+      "memberName": "ダミー039"
+    },
+    {
+      "memberId": "member-040",
+      "memberName": "ダミー040"
+    },
+    {
+      "memberId": "member-048",
+      "memberName": "ダミー048"
+    },
+    {
+      "memberId": "member-051",
+      "memberName": "ダミー051"
+    },
+    {
+      "memberId": "member-041",
+      "memberName": "ダミー041"
+    },
+    {
+      "memberId": "member-073",
+      "memberName": "ダミー073"
+    },
+    {
+      "memberId": "member-074",
+      "memberName": "ダミー074"
+    },
+    {
+      "memberId": "member-042",
+      "memberName": "ダミー042"
+    },
+    {
+      "memberId": "member-075",
+      "memberName": "ダミー075"
+    },
+    {
+      "memberId": "member-076",
+      "memberName": "ダミー076"
+    },
+    {
+      "memberId": "member-077",
+      "memberName": "ダミー077"
+    },
+    {
+      "memberId": "member-078",
+      "memberName": "ダミー078"
+    },
+    {
+      "memberId": "member-049",
+      "memberName": "ダミー049"
+    },
+    {
+      "memberId": "member-054",
+      "memberName": "ダミー054"
+    },
+    {
+      "memberId": "member-056",
+      "memberName": "ダミー056"
+    },
+    {
+      "memberId": "member-058",
+      "memberName": "ダミー058"
+    },
+    {
+      "memberId": "member-079",
+      "memberName": "ダミー079"
+    },
+    {
+      "memberId": "member-080",
+      "memberName": "ダミー080"
+    },
+    {
+      "memberId": "member-055",
+      "memberName": "ダミー055"
+    },
+    {
+      "memberId": "member-081",
+      "memberName": "ダミー081"
+    },
+    {
+      "memberId": "member-046",
+      "memberName": "ダミー046"
+    },
+    {
+      "memberId": "member-047",
+      "memberName": "ダミー047"
+    },
+    {
+      "memberId": "member-082",
+      "memberName": "ダミー082"
+    },
+    {
+      "memberId": "member-066",
+      "memberName": "ダミー066"
+    },
+    {
+      "memberId": "member-083",
+      "memberName": "ダミー083"
+    }
+  ],
+  "memberships": [
+    {
+      "bandId": "band-001",
+      "memberId": "member-001"
+    },
+    {
+      "bandId": "band-001",
+      "memberId": "member-002"
+    },
+    {
+      "bandId": "band-001",
+      "memberId": "member-003"
+    },
+    {
+      "bandId": "band-001",
+      "memberId": "member-004"
+    },
+    {
+      "bandId": "band-001",
+      "memberId": "member-005"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-006"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-003"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-007"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-008"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-009"
+    },
+    {
+      "bandId": "band-002",
+      "memberId": "member-010"
+    },
+    {
+      "bandId": "band-003",
+      "memberId": "member-011"
+    },
+    {
+      "bandId": "band-003",
+      "memberId": "member-012"
+    },
+    {
+      "bandId": "band-003",
+      "memberId": "member-013"
+    },
+    {
+      "bandId": "band-003",
+      "memberId": "member-014"
+    },
+    {
+      "bandId": "band-003",
+      "memberId": "member-015"
+    },
+    {
+      "bandId": "band-004",
+      "memberId": "member-016"
+    },
+    {
+      "bandId": "band-004",
+      "memberId": "member-017"
+    },
+    {
+      "bandId": "band-004",
+      "memberId": "member-018"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-019"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-020"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-021"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-022"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-023"
+    },
+    {
+      "bandId": "band-005",
+      "memberId": "member-024"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-025"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-026"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-028"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-020"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-029"
+    },
+    {
+      "bandId": "band-006",
+      "memberId": "member-010"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-026"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-013"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-030"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-023"
+    },
+    {
+      "bandId": "band-007",
+      "memberId": "member-024"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-008"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-031"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-032"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-033"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-034"
+    },
+    {
+      "bandId": "band-008",
+      "memberId": "member-029"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-035"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-036"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-037"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-038"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-039"
+    },
+    {
+      "bandId": "band-009",
+      "memberId": "member-040"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-019"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-048"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-051"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-041"
+    },
+    {
+      "bandId": "band-010",
+      "memberId": "member-073"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-012"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-074"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-033"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-042"
+    },
+    {
+      "bandId": "band-011",
+      "memberId": "member-075"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-006"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-076"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-077"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-009"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-029"
+    },
+    {
+      "bandId": "band-012",
+      "memberId": "member-010"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-078"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-074"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-049"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-020"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-029"
+    },
+    {
+      "bandId": "band-013",
+      "memberId": "member-054"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-056"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-036"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-049"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-058"
+    },
+    {
+      "bandId": "band-014",
+      "memberId": "member-040"
+    },
+    {
+      "bandId": "band-015",
+      "memberId": "member-054"
+    },
+    {
+      "bandId": "band-015",
+      "memberId": "member-079"
+    },
+    {
+      "bandId": "band-015",
+      "memberId": "member-078"
+    },
+    {
+      "bandId": "band-015",
+      "memberId": "member-056"
+    },
+    {
+      "bandId": "band-015",
+      "memberId": "member-023"
+    },
+    {
+      "bandId": "band-016",
+      "memberId": "member-080"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-013"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-031"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-055"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-081"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-046"
+    },
+    {
+      "bandId": "band-017",
+      "memberId": "member-054"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-021"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-012"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-074"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-073"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-058"
+    },
+    {
+      "bandId": "band-018",
+      "memberId": "member-041"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-047"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-036"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-082"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-049"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-066"
+    },
+    {
+      "bandId": "band-019",
+      "memberId": "member-042"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-033"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-027"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-083"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-028"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-034"
+    },
+    {
+      "bandId": "band-020",
+      "memberId": "member-010"
+    }
+  ],
+  "constraints": [],
+  "currentPlacements": []
+}

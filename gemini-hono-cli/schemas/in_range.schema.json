@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://setlist.local/schemas/in_range.schema.json",
+  "title": "InRangeConstraint",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "constraint_id",
+    "event_id",
+    "type",
+    "hardness",
+    "priority",
+    "enabled",
+    "targets",
+    "params"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/SchemaVersion" },
+    "constraint_id": { "type": "string", "minLength": 1 },
+    "event_id": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["in_range"] },
+    "hardness": { "$ref": "common.schema.json#/$defs/Hardness" },
+    "priority": { "$ref": "common.schema.json#/$defs/Priority" },
+    "enabled": { "type": "boolean" },
+    "source_text": { "type": "string" },
+    "targets": { "$ref": "#/$defs/InRangeTargets" },
+    "params": {
+      "oneOf": [
+        { "$ref": "#/$defs/InRangePositionParams" },
+        { "$ref": "#/$defs/InRangePartParams" }
+      ]
+    }
+  },
+  "$defs": {
+    "InRangeTargets": {
+      "title": "InRangeTargets",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["band_ids"],
+      "properties": {
+        "band_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "InRangePositionParams": {
+      "title": "InRangePositionParams",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "position_from", "position_to"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["positions"] },
+        "position_from": { "type": "integer", "minimum": 0 },
+        "position_to": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "InRangePartParams": {
+      "title": "InRangePartParams",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "part_ids"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["parts"] },
+        "part_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

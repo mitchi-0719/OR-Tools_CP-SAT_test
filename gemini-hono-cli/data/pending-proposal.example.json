@@ -1,0 +1,14 @@
+{
+  "actions": [
+    {
+      "type": "add_constraint",
+      "constraint": {
+        "type": "in_range",
+        "targets": { "band_ids": ["band-003"] },
+        "params": { "kind": "parts", "part_ids": [1] },
+        "hardness": "soft",
+        "priority": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://setlist.local/schemas/count.schema.json",
+  "title": "CountConstraint",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "constraint_id",
+    "event_id",
+    "type",
+    "hardness",
+    "priority",
+    "enabled",
+    "targets",
+    "params"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/SchemaVersion" },
+    "constraint_id": { "type": "string", "minLength": 1 },
+    "event_id": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["count"] },
+    "hardness": { "$ref": "common.schema.json#/$defs/Hardness" },
+    "priority": { "$ref": "common.schema.json#/$defs/Priority" },
+    "enabled": { "type": "boolean" },
+    "source_text": { "type": "string" },
+    "targets": { "$ref": "#/$defs/CountTargets" },
+    "params": {
+      "oneOf": [
+        { "$ref": "#/$defs/CountPerPartParams" },
+        { "$ref": "#/$defs/CountInPartsParams" }
+      ]
+    }
+  },
+  "$defs": {
+    "CountTargets": {
+      "title": "CountTargets",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["band_ids"],
+      "properties": {
+        "band_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "CountPerPartParams": {
+      "title": "CountPerPartParams",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "min", "max"],
+      "properties": {
+        "scope": { "type": "string", "enum": ["per_part"] },
+        "min": { "type": "integer", "minimum": 0 },
+        "max": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "CountInPartsParams": {
+      "title": "CountInPartsParams",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "part_ids", "min", "max"],
+      "properties": {
+        "scope": { "type": "string", "enum": ["in_parts"] },
+        "part_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "integer", "minimum": 0 }
+        },
+        "min": { "type": "integer", "minimum": 0 },
+        "max": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

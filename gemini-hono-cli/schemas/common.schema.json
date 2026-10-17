@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://setlist.local/schemas/common.schema.json",
+  "$defs": {
+    "SchemaVersion": {
+      "title": "SchemaVersion",
+      "type": "string",
+      "enum": ["1.0.0"]
+    },
+    "Hardness": {
+      "title": "Hardness",
+      "type": "string",
+      "enum": ["hard", "soft"]
+    },
+    "Priority": {
+      "title": "Priority",
+      "anyOf": [
+        { "type": "string", "enum": ["high", "mid", "low"] },
+        { "type": "null" }
+      ]
+    }
+  }
+}

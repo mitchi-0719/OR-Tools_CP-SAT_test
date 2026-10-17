@@ -1,0 +1,7 @@
+[
+  { "role": "user", "text": "Everythingを第2部にしたい" },
+  {
+    "role": "assistant",
+    "text": "{\"type\":\"approval_required\",\"message\":\"Everythingを第2部に配置する条件を追加します。\",\"actions\":[{\"type\":\"add_constraint\",\"constraint\":{\"type\":\"in_range\",\"targets\":{\"band_ids\":[\"band-003\"]},\"params\":{\"kind\":\"parts\",\"part_ids\":[1]},\"hardness\":null,\"priority\":null}}]}"
+  }
+]

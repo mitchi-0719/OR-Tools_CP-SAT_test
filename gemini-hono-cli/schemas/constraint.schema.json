@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://setlist.local/schemas/constraint.schema.json",
+  "title": "Constraint",
+  "oneOf": [
+    { "$ref": "min_gap_member.schema.json" },
+    { "$ref": "min_gap_bands.schema.json" },
+    { "$ref": "before.schema.json" },
+    { "$ref": "at_position.schema.json" },
+    { "$ref": "in_range.schema.json" },
+    { "$ref": "count.schema.json" }
+  ]
+}

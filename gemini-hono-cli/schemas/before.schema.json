@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://setlist.local/schemas/before.schema.json",
+  "title": "BeforeConstraint",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "constraint_id",
+    "event_id",
+    "type",
+    "hardness",
+    "priority",
+    "enabled",
+    "targets",
+    "params"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/SchemaVersion" },
+    "constraint_id": { "type": "string", "minLength": 1 },
+    "event_id": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["before"] },
+    "hardness": { "$ref": "common.schema.json#/$defs/Hardness" },
+    "priority": { "$ref": "common.schema.json#/$defs/Priority" },
+    "enabled": { "type": "boolean" },
+    "source_text": { "type": "string" },
+    "targets": { "$ref": "#/$defs/BeforeTargets" },
+    "params": { "$ref": "#/$defs/BeforeParams" }
+  },
+  "$defs": {
+    "BeforeTargets": {
+      "title": "BeforeTargets",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["before_band_id", "after_band_id"],
+      "properties": {
+        "before_band_id": { "type": "string", "minLength": 1 },
+        "after_band_id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "BeforeParams": {
+      "title": "BeforeParams",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {}
+    }
+  }
+}
